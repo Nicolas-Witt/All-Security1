@@ -1,0 +1,30 @@
+body {
+font-family: Arial, sans-serif;
+}
+
+
+h1, h2, h3 {
+color: #0A1D37;
+}
+
+
+.navbar {
+background-color: #0A1D37 !important;
+}
+
+
+.btn-primary {
+background-color: #C9A227;
+border: none;
+}
+
+
+.btn-primary:hover {
+background-color: #b08f1d;
+}
+
+
+footer {
+background-color: #0A1D37;
+color: white;
+}
