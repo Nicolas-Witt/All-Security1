@@ -40,6 +40,7 @@
         <p>Proteção 24h para sua casa.</p>
       </div>
     </div>
+
     <div class="carousel-item">
       <img src="foto1.jpeg" class="d-block w-100" alt="Segurança Comercial">
       <div class="carousel-caption">
@@ -47,6 +48,7 @@
         <p>Tranquilidade para seu negócio.</p>
       </div>
     </div>
+
     <div class="carousel-item">
       <img src="foto2.jpeg" class="d-block w-100" alt="Segurança Particular">
       <div class="carousel-caption">
@@ -66,17 +68,21 @@
   </div>
 </section>
 
-
+<!-- Serviços -->
 <section id="servicos" class="py-5">
   <div class="container">
     <h2 class="text-center mb-4">Nossos Serviços</h2>
+
+    <!-- BOTÃO DE ADICIONAR SERVIÇO -->
+    <a href="form_servico.html" class="btn btn-success mb-4">Adicionar Serviço</a>
+
     <div class="row">
       <?php include "servicos.php"; ?>
     </div>
   </div>
 </section>
 
-
+<!-- Clientes -->
 <section id="clientes" class="py-5 bg-light">
   <div class="container">
     <h2 class="text-center mb-4">Clientes</h2>
@@ -88,17 +94,21 @@
   </div>
 </section>
 
-
+<!-- Depoimentos -->
 <section id="depoimentos" class="py-5">
   <div class="container">
     <h2 class="text-center mb-4">Depoimentos</h2>
+
+    <!-- BOTÃO DE ADICIONAR DEPOIMENTO -->
+    <a href="form_depoimento.html" class="btn btn-success mb-4">Adicionar Depoimento</a>
+
     <div class="row">
       <?php include "depoimentos.php"; ?>
     </div>
   </div>
 </section>
 
-
+<!-- Contato -->
 <section id="contato" class="py-5 bg-light">
   <div class="container">
     <h2 class="text-center mb-4">Contato</h2>
@@ -114,7 +124,10 @@
       </div>
       <button type="submit" class="btn btn-primary">Enviar</button>
     </form>
-    <p class="mt-3">WhatsApp: <a href="https://wa.me/+55(49)98889-2170" target="_blank"> +55 (49) 98889-2170</a></p>
+
+    <p class="mt-3">WhatsApp:
+      <a href="https://wa.me/+5549988892170" target="_blank">+55 (49) 98889-2170</a>
+    </p>
   </div>
 </section>
 

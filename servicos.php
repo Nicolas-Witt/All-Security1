@@ -11,6 +11,14 @@ while ($s = $qry->fetch(PDO::FETCH_ASSOC)) {
                 <div class="card-body">
                     <h5 class="card-title">'.$s["titulo"].'</h5>
                     <p class="card-text">'.$s["descricao"].'</p>
+
+                    <p>Curtidas: '.$s["curtidas"].'</p>
+
+                    <a href="curtir_servico.php?id='.$s["id"].'" 
+                       class="btn btn-sm btn-success mb-2">
+                       Curtir
+                    </a>
+
                     <a href="#" class="btn btn-primary">Solicitar Orçamento</a>
                 </div>
             </div>
